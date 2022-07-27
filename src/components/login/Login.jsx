@@ -11,7 +11,7 @@ const Login= () => {
   
   const handleSubmit = (e) => {
      e.preventDefault()
-     console.log(user)
+     
      
    fetch('http://localhost:8080/login', {
       method: 'POST',
